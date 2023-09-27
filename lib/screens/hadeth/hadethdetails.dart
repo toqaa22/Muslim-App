@@ -65,7 +65,9 @@ class hadethDetailsState extends State<hadethDetails> {
                             args.hadeth,
                             textAlign: TextAlign.right,
                             style:
-                            GoogleFonts.arefRuqaa(fontSize: 25, color: const Color(0xFF071952)),
+                            GoogleFonts.amiriQuran(
+                              fontWeight: FontWeight.bold,
+                                fontSize: 20, color: const Color(0xFF071952)),
                           ),
                         ),
                       ),

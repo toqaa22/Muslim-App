@@ -79,11 +79,13 @@ class HomeScreen extends StatelessWidget {
                               const SizedBox(
                                 height: 10,
                               ),
-                              Text(
-                                "القران الكريم",
-                                style: GoogleFonts.arefRuqaa(
-                                    fontSize: 22,
-                                    color: const Color(0xFF071952)),
+                              Flexible(
+                                child: Text(
+                                  "القران الكريم",
+                                  style: GoogleFonts.arefRuqaa(
+                                      fontSize: 22,
+                                      color: const Color(0xFF071952)),
+                                ),
                               ),
                             ],
                           ),
@@ -122,11 +124,13 @@ class HomeScreen extends StatelessWidget {
                               const SizedBox(
                                 height: 15,
                               ),
-                              Text(
-                                "التسبيح",
-                                style: GoogleFonts.arefRuqaa(
-                                  fontSize: 22,
-                                  color: const Color(0xFF071952),
+                              Flexible(
+                                child: Text(
+                                  "التسبيح",
+                                  style: GoogleFonts.arefRuqaa(
+                                    fontSize: 22,
+                                    color: const Color(0xFF071952),
+                                  ),
                                 ),
                               )
                             ],
@@ -174,11 +178,13 @@ class HomeScreen extends StatelessWidget {
                               const SizedBox(
                                 height: 10,
                               ),
-                              Text(
-                                "الاحاديث",
-                                style: GoogleFonts.arefRuqaa(
-                                  fontSize: 22,
-                                  color: const Color(0xFF071952),
+                              Flexible(
+                                child: Text(
+                                  "الاحاديث",
+                                  style: GoogleFonts.arefRuqaa(
+                                    fontSize: 22,
+                                    color: const Color(0xFF071952),
+                                  ),
                                 ),
                               )
                             ],
@@ -218,11 +224,13 @@ class HomeScreen extends StatelessWidget {
                               const SizedBox(
                                 height: 10,
                               ),
-                              Text(
-                                "اذكار",
-                                style: GoogleFonts.arefRuqaa(
-                                  fontSize: 22,
-                                  color: const Color(0xFF071952),
+                              Flexible(
+                                child: Text(
+                                  "اذكار",
+                                  style: GoogleFonts.arefRuqaa(
+                                    fontSize: 22,
+                                    color: const Color(0xFF071952),
+                                  ),
                                 ),
                               )
                             ],

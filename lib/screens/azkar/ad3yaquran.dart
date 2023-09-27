@@ -49,9 +49,9 @@ class Ad3yaQuran extends StatelessWidget {
                                   alignment: Alignment.topRight,
                                   child: Text(
                                     cubit.contentData5[index]['content'],
-                                    style: GoogleFonts.arefRuqaa(
+                                    style: GoogleFonts.amiriQuran(
                                         color: const Color(0xFF071952),
-                                        fontSize: 20),
+                                        fontSize: 20,fontWeight: FontWeight.bold),
                                   )),
                             ),
                           ),

@@ -55,8 +55,9 @@ class _QuranDetailsScreenState extends State<QuranDetailsScreen> {
                 return Text(
                   quranDetails[index],
                   textAlign: TextAlign.center,
-                  style:  GoogleFonts.arefRuqaa(
-                    fontSize: 22,
+                  style:  GoogleFonts.amiriQuran(
+                    fontWeight: FontWeight.bold,
+                    fontSize: 20,
                     color: const Color(0xFF071952),
                   ),
                 );

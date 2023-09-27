@@ -42,7 +42,7 @@ class AzkarElMassa extends StatelessWidget {
                             alignment: Alignment.topRight,
                             child:
                             Text(cubit.contentData2[index]['content'],
-                              style:GoogleFonts.arefRuqaa(color:const Color(0xFF071952),fontSize: 20 ) ,)),
+                              style:GoogleFonts.amiriQuran(color:const Color(0xFF071952),fontSize: 20,fontWeight: FontWeight.bold ) ,)),
                       ),
                     ),
                   ),
